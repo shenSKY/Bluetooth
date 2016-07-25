@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DcV-uR-JSO"/>
+                        <viewControllerLayoutGuide type="bottom" id="58F-Sv-6L0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AFe-M3-Hgj">
+                                <rect key="frame" x="0.0" y="226" width="600" height="149"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BlueTooth Light" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogj-Ls-PXv">
+                                        <rect key="frame" x="154" y="8" width="292" height="60"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="42"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Designed by 神SKY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Dg-bZ-xY4">
+                                        <rect key="frame" x="197" y="76" width="207" height="34"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="24"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G3p-Bk-dDD">
+                                        <rect key="frame" x="281" y="118" width="38" height="23"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ogj-Ls-PXv" firstAttribute="centerX" secondItem="AFe-M3-Hgj" secondAttribute="centerX" id="8QF-8T-VkV"/>
+                                    <constraint firstItem="ogj-Ls-PXv" firstAttribute="top" secondItem="AFe-M3-Hgj" secondAttribute="top" constant="8" id="C66-6I-Swq"/>
+                                    <constraint firstAttribute="height" constant="149" id="TS9-7c-8QE"/>
+                                    <constraint firstAttribute="bottom" secondItem="G3p-Bk-dDD" secondAttribute="bottom" constant="8" id="WwD-xd-8nT"/>
+                                    <constraint firstItem="6Dg-bZ-xY4" firstAttribute="centerX" secondItem="AFe-M3-Hgj" secondAttribute="centerX" id="X2Q-TM-VMY"/>
+                                    <constraint firstItem="G3p-Bk-dDD" firstAttribute="top" secondItem="6Dg-bZ-xY4" secondAttribute="bottom" constant="8" id="cNs-b5-Lvg"/>
+                                    <constraint firstItem="6Dg-bZ-xY4" firstAttribute="top" secondItem="ogj-Ls-PXv" secondAttribute="bottom" constant="8" id="tN0-fz-zrn"/>
+                                    <constraint firstItem="G3p-Bk-dDD" firstAttribute="centerX" secondItem="AFe-M3-Hgj" secondAttribute="centerX" id="u3O-GT-7mR"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.3411764705882353" green="0.75294117647058822" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="AFe-M3-Hgj" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="6Jx-UT-i9x"/>
+                            <constraint firstItem="AFe-M3-Hgj" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Jtp-MC-8ZS"/>
+                            <constraint firstAttribute="trailing" secondItem="AFe-M3-Hgj" secondAttribute="trailing" id="ew6-BG-pO7"/>
+                            <constraint firstItem="AFe-M3-Hgj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hzY-hW-wvw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="79" y="353"/>
+        </scene>
+    </scenes>
+</document>
